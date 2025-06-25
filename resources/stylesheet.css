@@ -1,12 +1,12 @@
 body{
-	background-color: #bcada3
+	background-color: #BA7893
 }
 
 .header {
   position: sticky;
   top: 0;
   padding: 10px 16px;
-  background: #A67C62;
+  background: #5A6DB9;
   color: #f1f1f1;
   display: flex;
   align-items: center;
@@ -41,7 +41,7 @@ body{
 	margin: 10px;
 	margin-left: 0;
 	margin-right: 10px;
-	background: #A67C62;
+	background: #5A6DB9;
 	color: #f1f1f1;
 	border-radius: 25px;
 }
@@ -53,15 +53,17 @@ body{
 
 .project{
 	padding: 10px 16px;
-	background: #99CAB5;
+	background: #342C67;
 	color: #f1f1f1;
 	border-radius: 25px;
 	margin-left: 260px;
 	margin-top: 10px;
+	font-family: sans-serif;
+	font-size: 25px;
 }
 
 .projectImages{
-	margin-top: 150px;
+	margin-top: 25px;
 }
 
 .projectImages img{
@@ -75,4 +77,9 @@ a, a:visited, a:active {
 
 a:hover{
 	text-decoration: underline;
+	color: #8B8A8A;
+}
+
+p{
+	line-height: 1.5;
 }
