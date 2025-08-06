@@ -1,12 +1,13 @@
 body{
-	background-color: #BA7893
+	background: #FF68A3;
+	background: linear-gradient(180deg,rgba(255, 104, 163, 1) 0%, rgba(229, 109, 206, 1) 15%, rgba(111, 38, 130, 1) 100%);
 }
 
 .header {
   position: sticky;
   top: 0;
   padding: 10px 16px;
-  background: #5A6DB9;
+  background: #6F2682;
   color: #f1f1f1;
   display: flex;
   align-items: center;
@@ -41,7 +42,7 @@ body{
 	margin: 10px;
 	margin-left: 0;
 	margin-right: 10px;
-	background: #5A6DB9;
+	background: #6F2682;
 	color: #f1f1f1;
 	border-radius: 25px;
 }
@@ -53,7 +54,7 @@ body{
 
 .project{
 	padding: 10px 16px;
-	background: #342C67;
+	background: #400D56;
 	color: #f1f1f1;
 	border-radius: 25px;
 	margin-left: 260px;
@@ -67,7 +68,13 @@ body{
 }
 
 .projectImages img{
-	padding-right: 35px;
+	margin-right: 35px;
+	margin-left: 10px;
+	margin-bottom: 35px;
+	outline-style: solid;
+	outline-color: #702583;
+	outline-width: 10px;
+	border-radius: 25px;
 }
 
 a, a:visited, a:active {
